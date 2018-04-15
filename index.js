@@ -5,5 +5,7 @@ function Scooter (year, color, model) {
 }
 
 function Driver (name,age,exp) {
-  
+  this.name = name
+  this.age = age
+  this.experience = exp
 }
