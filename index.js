@@ -9,3 +9,8 @@ function Driver (name,age,exp) {
   this.age = age
   this.experience = exp
 }
+
+function PickupLocation (address,city) {
+  this.address = address
+  this.city = city
+}
